@@ -1,4 +1,5 @@
 Assignment 4 – Graph Traversal and Representation System
+Unarzhan Yeskendirova
 Project Overview
 This project demonstrates graph representation and graph traversal algorithms using Java.
 The graph is implemented using an adjacency list structure.
