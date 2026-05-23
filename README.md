@@ -198,3 +198,19 @@ I understood the difference between BFS and DFS. BFS explores nodes level-by-lev
 One challenge was implementing traversal logic correctly and avoiding repeated visits of vertices. I also learned how to measure algorithm performance using System.nanoTime().
 
 This project improved my understanding of graph algorithms, OOP design, and algorithm complexity analysis.
+## Bonus Task – Dijkstra’s Algorithm
+
+### Implemented Features
+
+- Added weighted edges support
+- Updated Edge class with weight field
+- Implemented Dijkstra’s shortest path algorithm
+- Added shortest path calculations from a starting vertex
+- Displayed shortest distances clearly
+
+### Dijkstra Time Complexity
+
+```text
+O(V²)
+example:
+g.dijkstra(0);
