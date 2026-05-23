@@ -52,7 +52,8 @@ public class Experiment {
                 int edgesForVertex = 2 + rand.nextInt(3);
                 for (int e = 0; e < edgesForVertex; e++) {
                     int neighbor = rand.nextInt(n);
-                    if (neighbor != v) g.addEdge(v, neighbor);
+                    int weight = 1 + rand.nextInt(20);
+                    if (neighbor != v) g.addEdge(v, neighbor, weight);
                 }
             }
 
